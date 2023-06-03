@@ -1,0 +1,18 @@
+
+----------------------------------------------
+Thank you for installing minima 2.0!
+
+Minima 2.0 comes with a breaking change that
+renders '<your-site>/css/main.scss' redundant.
+That file is now bundled with this gem as
+'<minima>/assets/main.scss'.
+
+More Information:
+https://github.com/jekyll/minima#customization
+----------------------------------------------
+
+Successfully installed minima-2.0.0
+Parsing documentation for minima-2.0.0
+Installing ri documentation for minima-2.0.0
+Done installing documentation for minima after 0 seconds
+1 gem installed
