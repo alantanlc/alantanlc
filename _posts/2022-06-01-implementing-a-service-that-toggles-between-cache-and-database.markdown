@@ -143,51 +143,24 @@ class PersonServiceImpl(PersonServiceInterface):
 
 ```
 
-## CacheMiss
-
-### Caveats
-
-1. Cache is volatile
-1. Cache is not transactional
-1. Cache is a limited resource
-
-### Cache Is Volatile
-
-Because cache is volatile, entries can be evicted anytime by various reasons:
-
-1. entry reached expiration
-1. entry is evicted because cache memory is full
-1. cache server fails
-
-Hence:
-
-1. Important to handle cache-miss gracefully
-1. Implement write-through logic by backing cache with datastore in your application
-
-### Cache Is Not Transactional
-
-1. Use `getIdentifiable()` and `putIfUntouched()` for optimistic locking
-
-### Cache Is A Limit Resource
-
-1. Cache only what is useful and necessary
-1. Your application should function without cache
-
-### Handling Cache-Miss During `Get`
+## Cache Miss
 
 If entry is not found in cache then:
 
 1. Fetch entry from database
 1. Put entry into cache
+1. Return result
 
 ```python
 from google.appengine.api import memcache
 
-value = memcache.get(key)
+def get(self, key):
+    value = memcache.get(key)
 
-if value is None:
-    value = get_value_from_db(key)
-        if not memcache.add(key, value):
-            logging.error('Memcache add failed.')
+    if value is None:
+        value = get_value_from_db(key)
+            if not memcache.add(key, value):
+                logging.error('Memcache add failed.')
 
+    return value
 ```

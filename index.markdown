@@ -9,9 +9,9 @@ layout: default
 
 <small style="display:block; margin-top: -1rem; font-size: 11pt; font-weight: normal; color: grey;">@alantanlc</small>
 
-[[Resume](https://docs.google.com/document/d/1NeTUAE8KsCUVQrlmhDdjLFS-0qwqHZN4qspAl3VLD2Q/edit){:target="\_blank"}]
-[[GitHub](https://github.com/alantanlc){:target="\_blank"}]
-[[LinkedIn](https://www.linkedin.com/in/alantanlc/){:target="\_blank"}]
+[[Resume](https://docs.google.com/document/d/1NeTUAE8KsCUVQrlmhDdjLFS-0qwqHZN4qspAl3VLD2Q/edit){:target="_blank"}]
+[[GitHub](https://github.com/alantanlc){:target="_blank"}]
+[[LinkedIn](https://www.linkedin.com/in/alantanlc/){:target="_blank"}]
 
 Software engineer working on real-time payments at JP Morgan
 
@@ -19,7 +19,7 @@ Previously worked at GIC and DSO National Laboratories
 
 NTU Computer Science (Bachelor's) and NUS Computer Science (Master's)
 
-Topics that interest me: real-time systems, parallel computing, web scraping, engineering best practices
+Topics that interest me: real-time applications, parallel computing, web scraping, automation, engineering best practices
 
 During my free time, I love to cook, read, run, hike and snowboard. They help to clear my mind and keep me sane.
 
