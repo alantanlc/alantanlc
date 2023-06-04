@@ -12,6 +12,7 @@ layout: default
 [[Resume](https://docs.google.com/document/d/1NeTUAE8KsCUVQrlmhDdjLFS-0qwqHZN4qspAl3VLD2Q/edit){:target="_blank"}]
 [[GitHub](https://github.com/alantanlc){:target="_blank"}]
 [[LinkedIn](https://www.linkedin.com/in/alantanlc/){:target="_blank"}]
+[[Blog](/blog){:target="_blank"}]
 
 Software engineer working on real-time payments at JP Morgan
 
@@ -22,20 +23,6 @@ NTU Computer Science (Bachelor's) and NUS Computer Science (Master's)
 Topics that interest me: real-time applications, parallel computing, web scraping, automation, engineering best practices
 
 During my free time, I love to cook, read, run, hike and snowboard. They help to clear my mind and keep me sane.
-
-<hr style="height: 0.05rem;" />
-
-<!-- Posts -->
-
-{% if site.posts.size > 0 %}
-
-<h3>Posts</h3>
-<ul>
-{% for post in site.posts %}
-<li>{{post.date | date: "%B %-d, %Y" }} - <a href="{{ post.url | relative_url }}">{{post.title}}</a></li>
-{% endfor %}
-</ul>
-{% endif %}
 
 <hr style="height: 0.05rem;" />
 
