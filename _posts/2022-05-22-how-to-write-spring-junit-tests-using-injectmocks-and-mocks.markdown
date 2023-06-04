@@ -1,8 +1,6 @@
 ---
 layout: post
-title: "How to write Spring JUnit tests using @InjectMocks and @Mock"
-date: 2023-05-22 18:54:25 +0800
-categories: jekyll blog
+categories: blog
 ---
 
 # How to write Spring JUnit tests using @InjectMocks and @Mock

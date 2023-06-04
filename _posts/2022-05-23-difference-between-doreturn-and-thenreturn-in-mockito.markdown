@@ -1,8 +1,6 @@
 ---
 layout: post
-title: "Difference between doReturn and thenReturn in Mockito"
-date: 2023-05-23 18:54:25 +0800
-categories: jekyll blog
+categories: blog
 ---
 
 # Difference between `doReturn` and `thenReturn` in Mockito
